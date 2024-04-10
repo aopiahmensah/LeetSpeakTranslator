@@ -1,0 +1,15 @@
+C:\Users\aopia\OneDrive\Documents\Visual Studio 2022\Projects\LST.Model\bin\Debug\net8.0\LST.Model.deps.json
+C:\Users\aopia\OneDrive\Documents\Visual Studio 2022\Projects\LST.Model\bin\Debug\net8.0\LST.Model.dll
+C:\Users\aopia\OneDrive\Documents\Visual Studio 2022\Projects\LST.Model\bin\Debug\net8.0\LST.Model.pdb
+C:\Users\aopia\OneDrive\Documents\Visual Studio 2022\Projects\LST.Model\bin\Debug\net8.0\LST.Infrastructure.dll
+C:\Users\aopia\OneDrive\Documents\Visual Studio 2022\Projects\LST.Model\bin\Debug\net8.0\LST.Infrastructure.pdb
+C:\Users\aopia\OneDrive\Documents\Visual Studio 2022\Projects\LST.Model\obj\Debug\net8.0\LST.Model.csproj.AssemblyReference.cache
+C:\Users\aopia\OneDrive\Documents\Visual Studio 2022\Projects\LST.Model\obj\Debug\net8.0\LST.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aopia\OneDrive\Documents\Visual Studio 2022\Projects\LST.Model\obj\Debug\net8.0\LST.Model.AssemblyInfoInputs.cache
+C:\Users\aopia\OneDrive\Documents\Visual Studio 2022\Projects\LST.Model\obj\Debug\net8.0\LST.Model.AssemblyInfo.cs
+C:\Users\aopia\OneDrive\Documents\Visual Studio 2022\Projects\LST.Model\obj\Debug\net8.0\LST.Model.csproj.CoreCompileInputs.cache
+C:\Users\aopia\OneDrive\Documents\Visual Studio 2022\Projects\LST.Model\obj\Debug\net8.0\LST.Model.csproj.Up2Date
+C:\Users\aopia\OneDrive\Documents\Visual Studio 2022\Projects\LST.Model\obj\Debug\net8.0\LST.Model.dll
+C:\Users\aopia\OneDrive\Documents\Visual Studio 2022\Projects\LST.Model\obj\Debug\net8.0\refint\LST.Model.dll
+C:\Users\aopia\OneDrive\Documents\Visual Studio 2022\Projects\LST.Model\obj\Debug\net8.0\LST.Model.pdb
+C:\Users\aopia\OneDrive\Documents\Visual Studio 2022\Projects\LST.Model\obj\Debug\net8.0\ref\LST.Model.dll

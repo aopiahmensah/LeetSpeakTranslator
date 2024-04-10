@@ -1,0 +1,189 @@
+﻿@model LeetSpeakTranslator.Models.ViewModels.DashboardViewModel
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="content-wrapper">
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <br>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="info-box shadow">
+                        <span class="info-box-icon bg-danger"><i class="fas fa-users"></i></span>
+                        <div class="info-box-content">
+                            <span class="info-box-text"></span>
+                            <span class="info-box-number"></span>
+                        </div>
+                        <!-- /.info-box-content -->
+                    </div>
+                    <!-- /.info-box -->
+                </div>
+                <!-- /.col -->
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="info-box shadow">
+                        <span class="info-box-icon bg-info"><i class="fas fa-users"></i></span>
+                        <div class="info-box-content">
+                            <span class="info-box-text"></span>
+                            <span class="info-box-number"></span>
+                        </div>
+                        <!-- /.info-box-content -->
+                    </div>
+                    <!-- /.info-box -->
+                </div>
+                <!-- /.col -->
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="info-box shadow">
+                        <span class="info-box-icon bg-success"><i class="fas fa-home"></i></span>
+                        <div class="info-box-content">
+                            <span class="info-box-text"></span>
+                            <span class="info-box-number"></span>
+                        </div>
+                        <!-- /.info-box-content -->
+                    </div>
+                    <!-- /.info-box -->
+                </div>
+                <!-- /.col -->
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="info-box shadow">
+                        <span class="info-box-icon bg-warning"><i class="fas fa-user-plus"></i></span>
+                        <div class="info-box-content">
+                            <span class="info-box-text"></span>
+                            <span class="info-box-number"></span>
+
+                        </div>
+                        <!-- /.info-box-content -->
+                    </div>
+                    <!-- /.info-box -->
+                </div>
+                <!-- /.col -->
+            </div>
+            <br>
+            <div class="row">
+
+                <div class="col-10 mx-auto">
+
+                    <div class="card">
+                        <div class="card-header">
+
+                            <div class="row mb-2">
+                                <div class="col-sm-11">
+                                    <h5><i class="fas fa-money-bill-alt"></i><strong> Api Request</strong></h5>
+                                </div><!-- /.col -->
+                            </div><!-- /.row -->
+
+                        </div>
+                        <!-- /.card-header -->
+
+                        <div class="card-body">
+
+                            <div class="table-responsive">
+                                <table id="APIREQUESTS" class="table table-bordered table-hover table-striped table-condensed">
+                                    <thead>
+                                        <tr>
+
+                                            <th>RequestId</th>
+                                            <th>Text</th>
+                                            <th>Date Created</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        @if (Model.ApiRequestView.Count() > 0)
+                                        {
+                                            @foreach (var item in Model.ApiRequestView)
+                                            {
+
+                                                <tr>
+                                                    <td>@Html.DisplayFor(m => item.RequestId)</td>
+                                                    <td>@Html.DisplayFor(m => item.Text)</td>
+                                                    <td>@Html.DisplayFor(m => item.CreatedOn)</td>
+                                                </tr>
+
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <tr>
+                                                <td colspan="15">No record found.</td>
+                                            </tr>
+                                        }
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10 mx-auto">
+
+                    <div class="card">
+                        <div class="card-header">
+
+                            <div class="row mb-2">
+                                <div class="col-sm-11">
+                                    <h5><i class="fas fa-money-bill-alt"></i><strong> Api Response</strong></h5>
+                                </div><!-- /.col -->
+                            </div><!-- /.row -->
+
+                        </div>
+                        <!-- /.card-header -->
+
+                        <div class="card-body">
+
+                            <div class="table-responsive">
+                                <table id="APIRESPONSE" class="table table-bordered table-hover table-striped table-condensed">
+                                    <thead>
+                                        <tr>
+
+                                            <th>Original Response</th>
+                                            <th>Text</th>
+                                            <th>Translated</th>
+                                            <th>Translation</th>
+                                            <th>Date Created</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        @if (Model.ApiResponseView.Count() > 0)
+                                        {
+                                            @foreach (var item in Model.ApiResponseView)
+                                            {
+
+                                                <tr>
+                                                    <td>@Html.DisplayFor(m => item.JSONResponse)</td>
+                                                    <td>@Html.DisplayFor(m => item.Text)</td>
+                                                    <td>@Html.DisplayFor(m => item.Translated)</td>
+                                                    <td>@Html.DisplayFor(m => item.Translation)</td>
+                                                    <td>@Html.DisplayFor(m => item.CreatedOn)</td>
+                                                </tr>
+
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <tr>
+                                                <td colspan="15">No record found.</td>
+                                            </tr>
+                                        }
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+
+                
+            </div>
+        </div>
+
+        <div>
+        </div>
+    </section>
+</div>

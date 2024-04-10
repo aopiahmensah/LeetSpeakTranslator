@@ -1,0 +1,77 @@
+﻿@{
+    ViewData["Title"] = "Submit Query";
+}
+
+@model LeetSpeakTranslator.Models.ViewModels.QueryApiViewModel
+<div class="content-wrapper">
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <br>
+            <div class="row">
+                <div class="col-6 mx-auto">
+                    <div class="row">
+                        <div class="col-12">
+                            @if (TempData["SuccessMessage"] != null)
+                            {
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    @TempData["SuccessMessage"]
+                                </div>
+                            }
+
+                            @if (TempData["ErrorMessage"] != null)
+                            {
+                                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                    @TempData["ErrorMessage"]
+                                </div>
+                            }
+                        </div>
+                    </div>
+                    <!-- Horizontal Form -->
+                    <div class="card card-primary">
+                        <div class="card-header">
+                            <h3 class="card-title"><i class="fas fa-pen"> </i> Submit Query</h3>
+                        </div>
+                        <!-- /.card-header -->
+
+
+
+
+                        <form class="form-horizontal" asp-action="SubmitQuery" asp-controller="Home" method="post">
+                            @Html.AntiForgeryToken()
+
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <!-- Name of Event -->
+                                        <div class="form-group" style="align: center">
+                                            <label class="mb-2 text-muted">Input String</label><span style="color: red; margin-left: 5px">*</span>
+                                            <input type="text" asp-for="@Model.Text" class="form-control" placeholder="Enter text" required>
+                                            <span asp-validation-for="@Model.Text" class="text-danger"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <!-- Submit Button -->
+                                <div class="col-4 mx-auto" style="padding-bottom:30px">
+                                    <button type="submit" class="btn btn-primary btn-block"><span><i class="fas fa-pen"></i></span> Submit</button>
+                                </div>
+                            </div>
+                        </form>
+
+
+                    </div>
+                    <!-- /.card -->
+
+
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+
+
+        </div>
+    </section>
+</div>

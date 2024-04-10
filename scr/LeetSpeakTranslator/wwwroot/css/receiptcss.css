@@ -1,0 +1,54 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background: #FFF;
+}
+
+.invoice {
+    width: 80mm;
+    margin: auto;
+    box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+    padding: 15px;
+}
+
+.receipt-header img.logo {
+    width: 50px;
+    height: auto;
+}
+
+.receipt-header, .receipt-body, .receipt-footer {
+    margin-bottom: 15px;
+}
+.receipt-header h3{
+    font-size: 13px;
+}
+.receipt-body h4{
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.receipt-header .address{
+    font-size: 12px;
+}
+.transaction-details p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 5px 0;
+}
+
+.invoice-btns .print-buttons {
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.invoice-btns .print-buttons .btn {
+    margin: 0 10px; /* Spacing between buttons */
+}
+
+.print-buttons button {
+    margin-top: 20px;
+}
+
+@media print {
+    .print-buttons {
+        display: none;
+    }
+}

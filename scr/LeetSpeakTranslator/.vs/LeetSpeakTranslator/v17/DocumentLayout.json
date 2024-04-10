@@ -1,0 +1,626 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2945D955-5801-4903-8CCA-AF3D2E0FA16A}|..\\LST.Service\\LST.Service.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.service\\implementations\\widgetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2945D955-5801-4903-8CCA-AF3D2E0FA16A}|..\\LST.Service\\LST.Service.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.service\\implementations\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2945D955-5801-4903-8CCA-AF3D2E0FA16A}|..\\LST.Service\\LST.Service.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.service\\implementations\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2945D955-5801-4903-8CCA-AF3D2E0FA16A}|..\\LST.Service\\LST.Service.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.service\\common\\servicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582B962D-3F03-4066-A639-BFE8EB5C86ED}|LeetSpeakTranslator.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\leetspeaktranslator\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582B962D-3F03-4066-A639-BFE8EB5C86ED}|LeetSpeakTranslator.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666F45D3-9772-4C57-9A14-4264C97632C5}|..\\LST.UnitTest\\LST.UnitTest.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.unittest\\leetspeakconvertertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8DC2693-150A-41F0-8229-B250CEF7C241}|..\\LST.Repository.EF.All\\LST.Repository.EF.All.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.repository.ef.all\\repository\\apirequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582B962D-3F03-4066-A639-BFE8EB5C86ED}|LeetSpeakTranslator.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\leetspeaktranslator\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582B962D-3F03-4066-A639-BFE8EB5C86ED}|LeetSpeakTranslator.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582B962D-3F03-4066-A639-BFE8EB5C86ED}|LeetSpeakTranslator.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\leetspeaktranslator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582B962D-3F03-4066-A639-BFE8EB5C86ED}|LeetSpeakTranslator.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666F45D3-9772-4C57-9A14-4264C97632C5}|..\\LST.UnitTest\\LST.UnitTest.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.unittest\\helpers\\dependencyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2945D955-5801-4903-8CCA-AF3D2E0FA16A}|..\\LST.Service\\LST.Service.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.service\\interfaces\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582B962D-3F03-4066-A639-BFE8EB5C86ED}|LeetSpeakTranslator.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\leetspeaktranslator\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{582B962D-3F03-4066-A639-BFE8EB5C86ED}|LeetSpeakTranslator.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC568FD7-2426-4F4D-A88A-2DF02491EC28}|..\\LST.Model\\LST.Model.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.model\\model\\api\\apirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{418D4B1C-72C9-4B8D-BC72-C87EC489C6DA}|..\\LST.Infrastructure\\LST.Infrastructure.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.infrastructure\\domain\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2945D955-5801-4903-8CCA-AF3D2E0FA16A}|..\\LST.Service\\LST.Service.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.service\\views\\apirequestview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582B962D-3F03-4066-A639-BFE8EB5C86ED}|LeetSpeakTranslator.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\leetspeaktranslator\\models\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582B962D-3F03-4066-A639-BFE8EB5C86ED}|LeetSpeakTranslator.csproj|solutionrelative:models\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2945D955-5801-4903-8CCA-AF3D2E0FA16A}|..\\LST.Service\\LST.Service.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.service\\messaging\\viewapirequestsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8DC2693-150A-41F0-8229-B250CEF7C241}|..\\LST.Repository.EF.All\\LST.Repository.EF.All.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.repository.ef.all\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8DC2693-150A-41F0-8229-B250CEF7C241}|..\\LST.Repository.EF.All\\LST.Repository.EF.All.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.repository.ef.all\\common\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{418D4B1C-72C9-4B8D-BC72-C87EC489C6DA}|..\\LST.Infrastructure\\LST.Infrastructure.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.infrastructure\\domain\\ireadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC568FD7-2426-4F4D-A88A-2DF02491EC28}|..\\LST.Model\\LST.Model.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.model\\model\\irepository\\iapirequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC568FD7-2426-4F4D-A88A-2DF02491EC28}|..\\LST.Model\\LST.Model.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.model\\model\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582B962D-3F03-4066-A639-BFE8EB5C86ED}|LeetSpeakTranslator.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\leetspeaktranslator\\views\\home\\submitquery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{582B962D-3F03-4066-A639-BFE8EB5C86ED}|LeetSpeakTranslator.csproj|solutionrelative:views\\home\\submitquery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582B962D-3F03-4066-A639-BFE8EB5C86ED}|LeetSpeakTranslator.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\leetspeaktranslator\\helpers\\claimsprincipalhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582B962D-3F03-4066-A639-BFE8EB5C86ED}|LeetSpeakTranslator.csproj|solutionrelative:helpers\\claimsprincipalhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{418D4B1C-72C9-4B8D-BC72-C87EC489C6DA}|..\\LST.Infrastructure\\LST.Infrastructure.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.infrastructure\\messaging\\responsebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582B962D-3F03-4066-A639-BFE8EB5C86ED}|LeetSpeakTranslator.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\leetspeaktranslator\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{582B962D-3F03-4066-A639-BFE8EB5C86ED}|LeetSpeakTranslator.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8DC2693-150A-41F0-8229-B250CEF7C241}|..\\LST.Repository.EF.All\\LST.Repository.EF.All.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.repository.ef.all\\migrations\\20240409112555_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582B962D-3F03-4066-A639-BFE8EB5C86ED}|LeetSpeakTranslator.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\leetspeaktranslator\\models\\viewmodels\\queryapiviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582B962D-3F03-4066-A639-BFE8EB5C86ED}|LeetSpeakTranslator.csproj|solutionrelative:models\\viewmodels\\queryapiviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2945D955-5801-4903-8CCA-AF3D2E0FA16A}|..\\LST.Service\\LST.Service.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.service\\messaging\\authentication\\response\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC568FD7-2426-4F4D-A88A-2DF02491EC28}|..\\LST.Model\\LST.Model.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.model\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2945D955-5801-4903-8CCA-AF3D2E0FA16A}|..\\LST.Service\\LST.Service.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.service\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2945D955-5801-4903-8CCA-AF3D2E0FA16A}|..\\LST.Service\\LST.Service.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.service\\messaging\\authentication\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582B962D-3F03-4066-A639-BFE8EB5C86ED}|LeetSpeakTranslator.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\leetspeaktranslator\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582B962D-3F03-4066-A639-BFE8EB5C86ED}|LeetSpeakTranslator.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2945D955-5801-4903-8CCA-AF3D2E0FA16A}|..\\LST.Service\\LST.Service.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{418D4B1C-72C9-4B8D-BC72-C87EC489C6DA}|..\\LST.Infrastructure\\LST.Infrastructure.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.infrastructure\\authentication\\securityuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC568FD7-2426-4F4D-A88A-2DF02491EC28}|..\\LST.Model\\LST.Model.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.model\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8DC2693-150A-41F0-8229-B250CEF7C241}|..\\LST.Repository.EF.All\\LST.Repository.EF.All.csproj|c:\\users\\aopia\\onedrive\\documents\\visual studio 2022\\projects\\lst.repository.ef.all\\migrations\\20240409114332_userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LeetSpeakConverterTests.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.UnitTest\\LeetSpeakConverterTests.cs",
+              "RelativeDocumentMoniker": "..\\LST.UnitTest\\LeetSpeakConverterTests.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.UnitTest\\LeetSpeakConverterTests.cs",
+              "RelativeToolTip": "..\\LST.UnitTest\\LeetSpeakConverterTests.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAAE0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T10:45:01.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Implementations\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "..\\LST.Service\\Implementations\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Implementations\\AuthenticationService.cs",
+              "RelativeToolTip": "..\\LST.Service\\Implementations\\AuthenticationService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T08:27:42.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAABcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T10:51:34.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WidgetService.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Implementations\\WidgetService.cs",
+              "RelativeDocumentMoniker": "..\\LST.Service\\Implementations\\WidgetService.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Implementations\\WidgetService.cs",
+              "RelativeToolTip": "..\\LST.Service\\Implementations\\WidgetService.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T09:16:22.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T14:40:04.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApiRequestRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Repository.EF.All\\Repository\\ApiRequestRepository.cs",
+              "RelativeDocumentMoniker": "..\\LST.Repository.EF.All\\Repository\\ApiRequestRepository.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Repository.EF.All\\Repository\\ApiRequestRepository.cs",
+              "RelativeToolTip": "..\\LST.Repository.EF.All\\Repository\\ApiRequestRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T08:37:19.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionService.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Implementations\\TransactionService.cs",
+              "RelativeDocumentMoniker": "..\\LST.Service\\Implementations\\TransactionService.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Implementations\\TransactionService.cs",
+              "RelativeToolTip": "..\\LST.Service\\Implementations\\TransactionService.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAAEQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T13:54:16.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceBase.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Common\\ServiceBase.cs",
+              "RelativeDocumentMoniker": "..\\LST.Service\\Common\\ServiceBase.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Common\\ServiceBase.cs",
+              "RelativeToolTip": "..\\LST.Service\\Common\\ServiceBase.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T20:43:18.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DependencyConfig.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.UnitTest\\Helpers\\DependencyConfig.cs",
+              "RelativeDocumentMoniker": "..\\LST.UnitTest\\Helpers\\DependencyConfig.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.UnitTest\\Helpers\\DependencyConfig.cs",
+              "RelativeToolTip": "..\\LST.UnitTest\\Helpers\\DependencyConfig.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwBAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T11:44:50.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T20:27:37.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApiRequest.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Model\\Model\\Api\\ApiRequest.cs",
+              "RelativeDocumentMoniker": "..\\LST.Model\\Model\\Api\\ApiRequest.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Model\\Model\\Api\\ApiRequest.cs",
+              "RelativeToolTip": "..\\LST.Model\\Model\\Api\\ApiRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T19:58:03.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAHcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T09:35:35.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EntityBase.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Infrastructure\\Domain\\EntityBase.cs",
+              "RelativeDocumentMoniker": "..\\LST.Infrastructure\\Domain\\EntityBase.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Infrastructure\\Domain\\EntityBase.cs",
+              "RelativeToolTip": "..\\LST.Infrastructure\\Domain\\EntityBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T19:46:35.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ITransactionService.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Interfaces\\ITransactionService.cs",
+              "RelativeDocumentMoniker": "..\\LST.Service\\Interfaces\\ITransactionService.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Interfaces\\ITransactionService.cs",
+              "RelativeToolTip": "..\\LST.Service\\Interfaces\\ITransactionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T13:44:34.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApiRequestView.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Views\\ApiRequestView.cs",
+              "RelativeDocumentMoniker": "..\\LST.Service\\Views\\ApiRequestView.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Views\\ApiRequestView.cs",
+              "RelativeToolTip": "..\\LST.Service\\Views\\ApiRequestView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T12:20:37.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\Models\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\Models\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T12:23:07.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ViewApiRequestsResponse.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Messaging\\ViewApiRequestsResponse.cs",
+              "RelativeDocumentMoniker": "..\\LST.Service\\Messaging\\ViewApiRequestsResponse.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Messaging\\ViewApiRequestsResponse.cs",
+              "RelativeToolTip": "..\\LST.Service\\Messaging\\ViewApiRequestsResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T12:31:15.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Repository.EF.All\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\LST.Repository.EF.All\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Repository.EF.All\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "..\\LST.Repository.EF.All\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:19:57.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IReadOnlyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Infrastructure\\Domain\\IReadOnlyRepository.cs",
+              "RelativeDocumentMoniker": "..\\LST.Infrastructure\\Domain\\IReadOnlyRepository.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Infrastructure\\Domain\\IReadOnlyRepository.cs",
+              "RelativeToolTip": "..\\LST.Infrastructure\\Domain\\IReadOnlyRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T08:40:26.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Repository.EF.All\\Common\\Repository.cs",
+              "RelativeDocumentMoniker": "..\\LST.Repository.EF.All\\Common\\Repository.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Repository.EF.All\\Common\\Repository.cs",
+              "RelativeToolTip": "..\\LST.Repository.EF.All\\Common\\Repository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:21:10.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IApiRequestRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Model\\Model\\IRepository\\IApiRequestRepository.cs",
+              "RelativeDocumentMoniker": "..\\LST.Model\\Model\\IRepository\\IApiRequestRepository.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Model\\Model\\IRepository\\IApiRequestRepository.cs",
+              "RelativeToolTip": "..\\LST.Model\\Model\\IRepository\\IApiRequestRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T08:31:05.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Model\\Model\\IRepository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\LST.Model\\Model\\IRepository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Model\\Model\\IRepository\\IUserRepository.cs",
+              "RelativeToolTip": "..\\LST.Model\\Model\\IRepository\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T08:31:17.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ClaimsPrincipalHelper.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\Helpers\\ClaimsPrincipalHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\ClaimsPrincipalHelper.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\Helpers\\ClaimsPrincipalHelper.cs",
+              "RelativeToolTip": "Helpers\\ClaimsPrincipalHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T10:26:21.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SubmitQuery.cshtml",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\Views\\Home\\SubmitQuery.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\SubmitQuery.cshtml",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\Views\\Home\\SubmitQuery.cshtml",
+              "RelativeToolTip": "Views\\Home\\SubmitQuery.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAABBwBwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T11:02:16.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ResponseBase.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Infrastructure\\Messaging\\ResponseBase.cs",
+              "RelativeDocumentMoniker": "..\\LST.Infrastructure\\Messaging\\ResponseBase.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Infrastructure\\Messaging\\ResponseBase.cs",
+              "RelativeToolTip": "..\\LST.Infrastructure\\Messaging\\ResponseBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T10:09:50.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAABBwA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T08:05:28.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "QueryApiViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\Models\\ViewModels\\QueryApiViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\QueryApiViewModel.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\Models\\ViewModels\\QueryApiViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\QueryApiViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T10:58:06.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20240409114332_UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Repository.EF.All\\Migrations\\20240409114332_UserEntity.cs",
+              "RelativeDocumentMoniker": "..\\LST.Repository.EF.All\\Migrations\\20240409114332_UserEntity.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Repository.EF.All\\Migrations\\20240409114332_UserEntity.cs",
+              "RelativeToolTip": "..\\LST.Repository.EF.All\\Migrations\\20240409114332_UserEntity.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAABBwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T11:43:32.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20240409112555_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Repository.EF.All\\Migrations\\20240409112555_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\LST.Repository.EF.All\\Migrations\\20240409112555_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Repository.EF.All\\Migrations\\20240409112555_InitialCreate.cs",
+              "RelativeToolTip": "..\\LST.Repository.EF.All\\Migrations\\20240409112555_InitialCreate.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAABBwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T11:43:10.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Messaging\\Authentication\\Response\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "..\\LST.Service\\Messaging\\Authentication\\Response\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Messaging\\Authentication\\Response\\LoginResponse.cs",
+              "RelativeToolTip": "..\\LST.Service\\Messaging\\Authentication\\Response\\LoginResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T08:16:41.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Model\\Model\\User.cs",
+              "RelativeDocumentMoniker": "..\\LST.Model\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Model\\Model\\User.cs",
+              "RelativeToolTip": "..\\LST.Model\\Model\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T10:18:57.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Interfaces\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "..\\LST.Service\\Interfaces\\IAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Interfaces\\IAuthenticationService.cs",
+              "RelativeToolTip": "..\\LST.Service\\Interfaces\\IAuthenticationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T08:25:16.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Messaging\\Authentication\\Request\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "..\\LST.Service\\Messaging\\Authentication\\Request\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Messaging\\Authentication\\Request\\LoginRequest.cs",
+              "RelativeToolTip": "..\\LST.Service\\Messaging\\Authentication\\Request\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T08:13:58.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T08:02:06.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\LST.Service\\Class1.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Service\\Class1.cs",
+              "RelativeToolTip": "..\\LST.Service\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T20:31:16.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SecurityUser.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Infrastructure\\Authentication\\SecurityUser.cs",
+              "RelativeDocumentMoniker": "..\\LST.Infrastructure\\Authentication\\SecurityUser.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Infrastructure\\Authentication\\SecurityUser.cs",
+              "RelativeToolTip": "..\\LST.Infrastructure\\Authentication\\SecurityUser.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAABRwDcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T19:50:38.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Model\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\LST.Model\\Class1.cs",
+              "ToolTip": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Model\\Class1.cs",
+              "RelativeToolTip": "..\\LST.Model\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T19:42:22.863Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+﻿
+@using System.Security.Claims
+@{
+    // var user = User.FindFirstValue("NameIdentifier");
+}
+<!DOCTYPE html>
+<html dir="ltr" lang="str_replace('_', '-', app()->getLocale())">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="csrf_token()">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>
+        Leet Speak Translator
+    </title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" type="image/png" href="/images/logoicon.png" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="~/plugins/fontawesome-free/css/all.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/icons.css">
+    <!-- Tempusdominus Bootstrap 4 -->
+    <!-- iCheck -->
+    <link rel="stylesheet" href="~/plugins/icheck-bootstrap/icheck-bootstrap.min.css" asp-append-version="true">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="~/dist/css/adminlte.min.css" asp-append-version="true">
+
+    <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true">
+    <!-- DataTables CSS -->
+    <link href="~/plugins/datatables/css/datatables.bootstrap4.min.css" rel="stylesheet" />
+    <link href="~/plugins/datatables/css/datatables.datatables.min.css" rel="stylesheet" />
+    <!-- DataTables Buttons CSS -->
+    <link href="~/plugins/datatables/css/buttons.datatables.min.css" rel="stylesheet" />
+
+
+    <style>
+        .content-wrapper {
+            height: 100% !important;
+        }
+
+        .dt-search {
+            margin-left: 800px;
+        }
+
+        #ACHTransactions_filter {
+            margin-left: 500px;
+        }
+
+    </style>
+
+    <script src="https://unpkg.com/autonumeric"></script>
+
+    <style>
+        .required {
+            color: red;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body class="hold-transition layout-fixed fbn-ui-SystemIndex sidebar-mini" data-panel-auto-height-mode="height">
+    <div class="wrapper">
+
+
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                </li>
+                <li class="nav-item" style="margin-top:5px; font-weight: bold">
+                    <span style="">
+                        @DateTime.Now.ToString("dddd, dd MMM yyy")
+                    </span>
+                    @{
+                        await Html.RenderPartialAsync("~/Views/Shared/Time.cshtml");
+                    }
+
+                </li>
+            </ul>
+
+            <!-- Right navbar links -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item iframe-navbar dropdown user-info">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        <strong>
+                        Welcome, @User.Claims.First().Value
+                        </strong>
+                    </a>
+                    <div class="dropdown-menu mt-0 dropdown-menu-right">
+                        @* <a class="dropdown-item" href="#" data-type="all">
+                        <i class='fas fa-user'></i>  User Profile
+                        </a>
+                        <div class="dropdown-divider"></div> *@
+                        <a class="dropdown-item text-danger" data-toggle="modal" data-target="#logOut" style="cursor:pointer">
+                            <i class='fa fa-power-off'></i> Logout
+                        </a>
+                    </div>
+                </li>
+
+            </ul>
+        </nav>
+        <!-- /.navbar -->
+        <!-- Main Sidebar Container -->
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+            <!-- Main Logo -->
+            @* <a href="#" class="brand-link">
+                <img src="~/images/fbn-logo-white.png" alt="FBNBank Logo" class="brand-image img-circle3 elevation-3">
+                <!-- <span class="brand-text font-weight-light">FBNBank Ghana</span> -->
+            </a> *@
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+
+                        <li class="nav-item">
+                            <a asp-controller="Home" asp-action="Index" class="nav-link">
+                                <i class="nav-icon fas fa-th" style="color:#ffff00;font-size:11px"></i>
+                                <p style="font-size:14px">
+                                    Dashboard
+                                </p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a asp-controller="Home" asp-action="SubmitQuery" class="nav-link">
+                                <i class="nav-icon fas fa-plus" style="color:#ffff00;font-size:11px"></i>
+                                <p style="font-size:14px">
+                                    Submit Text Translation<br />
+                                    <span style="padding-left: 35px">Details</span>
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- /.sidebar-menu -->
+            </div>
+            <!-- /.sidebar -->
+        </aside>
+
+        <!-- Main content -->
+        <section class="content">
+            <div class="container-fluid">
+
+                @RenderBody()
+
+            </div>
+            <!-- /.container-fluid -->
+
+        </section>
+
+        <footer class="main-footer" style="margin-top: 50px">
+            <strong>Leet Speak Translator</strong> &copy; @DateTime.Now.Year
+            All rights reserved.
+            @* <div class="float-right d-none d-sm-inline-block">
+                <b>You</b> First
+            </div> *@
+        </footer>
+
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+        </aside>
+        <!-- /.control-sidebar -->
+    </div>
+    <!-- ./wrapper -->
+    <!-- LogOut Modal -->
+    <div class="modal fade" id="logOut" tabindex="-1" data-backdrop="static" data-keyboard="false" aria-labelledby="logOutLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p> <i class="fas fa-power-off text-red"></i> Are you sure you want to log-out?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default btn-xs" data-dismiss="modal" style="width:50px;">No</button>
+                    <!-- Logout Link -->
+                    <a href="@Url.Action("Logout", "Account")" class="btn btn-primary btn-xs float-end" style="width:50px;margin-left:15px;">Yes</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="~/plugins/jquery/jquery.min.js"></script>
+    <!-- Include jQuery, if it's not already included -->
+    <!-- jQuery UI 1.11.4 -->
+    <script src="~/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+        $.widget.bridge('uibutton', $.ui.button)
+    </script>
+    <!-- Bootstrap 4 -->
+    <script src="~/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="~/dist/js/adminlte.js"></script>
+
+    <!-- DataTables  & Plugins -->
+    <script src="~/plugins/datatables/js/datatables.min.js"></script>
+    <script src="~/plugins/datatables/js/datatables.bootstrap4.min.js"></script>
+    <script src="~/plugins/datatables/js/datatables.buttons.min.js"></script>
+    <script src="~/plugins/datatables/js/buttons.bootstrap4.min.js"></script>
+    <script src="~/plugins/pdfmake/pdfmake.min.js"></script>
+    <script src="~/plugins/pdfmake/vfs_fonts.js"></script>
+    <script src="~/plugins/datatables/js/buttons.html5.min.js"></script>
+    <script src="~/plugins/datatables/js/buttons.print.min.js"></script>
+    <script src="~/js/table-datatable.js"></script>
+    <script>
+        $(function () {
+            var url = window.location.href;
+
+            $(".sidebar a").each(function () {
+                if (url == (this.href)) {
+                    //debugger;
+                    $(this).addClass("active");
+                    // $(this).closet("li").parent().parent().addClass("active");
+                }
+            });
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('#APIREQUESTS').DataTable({
+                dom: 'Bfrtip',
+                autoFill: true,
+                buttons: [
+                    {
+                        extend: 'csv',
+                        text: 'Export to CSV',
+                        exportOptions: {
+                            columns: [1, 2, 3, 4, 5, 6, 7]
+                        },
+                        title: function () {
+                            var currentDate = new Date();
+                            var dateTime = currentDate.getFullYear() + "_" +
+                                ("0" + (currentDate.getMonth() + 1)).slice(-2) + "_" +
+                                ("0" + currentDate.getDate()).slice(-2) + "_" +
+                                ("0" + currentDate.getHours()).slice(-2) + "_" +
+                                ("0" + currentDate.getMinutes()).slice(-2) + "_" +
+                                ("0" + currentDate.getSeconds()).slice(-2);
+                            return 'Api_Requests_' + dateTime;
+                        }
+                    },
+                    {
+                        extend: 'pdf',
+                        text: 'Export as PDF',
+                        exportOptions: {
+                            columns: [1, 2, 3, 4, 5, 6, 7]
+                        },
+                        title: function () {
+                            var currentDate = new Date();
+                            var dateTime = ("0" + currentDate.getDate()).slice(-2) + "/"
+                                + ("0" + (currentDate.getMonth() + 1)).slice(-2) + "/" +
+                                currentDate.getFullYear();
+                            return 'Api_Requests_' + dateTime;
+                        }
+                    },
+                    {
+                        extend: 'print',
+                        text: 'Print',
+                        exportOptions: {
+                            columns: [1, 2, 3, 4, 5, 6, 7]
+                        },
+                        title: function () {
+                            var currentDate = new Date();
+                            var dateTime = ("0" + currentDate.getDate()).slice(-2) + "/"
+                                + ("0" + (currentDate.getMonth() + 1)).slice(-2) + "/" +
+                                currentDate.getFullYear();
+                            return 'Api Request - ' + dateTime;
+                        }
+                    },
+
+                ]
+            });
+            $('#APIRESPONSE').DataTable({
+                dom: 'Bfrtip',
+                autoFill: true,
+                buttons: [
+                    {
+                        extend: 'csv',
+                        text: 'Export to CSV',
+                        title: function () {
+                            var currentDate = new Date();
+                            var dateTime = currentDate.getFullYear() + "_" +
+                                ("0" + (currentDate.getMonth() + 1)).slice(-2) + "_" +
+                                ("0" + currentDate.getDate()).slice(-2) + "_" +
+                                ("0" + currentDate.getHours()).slice(-2) + "_" +
+                                ("0" + currentDate.getMinutes()).slice(-2) + "_" +
+                                ("0" + currentDate.getSeconds()).slice(-2);
+                            return 'Api Response - ' + dateTime;
+                        }
+                    },
+                    {
+                        extend: 'pdf',
+                        text: 'Export as PDF',
+                        title: function () {
+                            var currentDate = new Date();
+                            var dateTime = ("0" + currentDate.getDate()).slice(-2) + "/"
+                                + ("0" + (currentDate.getMonth() + 1)).slice(-2) + "/" +
+                                currentDate.getFullYear();
+                            return 'Api Response - ' + dateTime;
+                        }
+                    },
+                    {
+                        extend: 'print',
+                        text: 'Print',
+                        title: function () {
+                            var currentDate = new Date();
+                            var dateTime = ("0" + currentDate.getDate()).slice(-2) + "/"
+                                + ("0" + (currentDate.getMonth() + 1)).slice(-2) + "/" +
+                                currentDate.getFullYear();
+                            return 'Api Response - ' + dateTime;
+                        }
+                    },
+
+                ]
+            });
+        });
+    </script>
+</body>
+</html>
