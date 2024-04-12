@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetSpeakTranslator", "LeetSpeakTranslator.csproj", "{582B962D-3F03-4066-A639-BFE8EB5C86ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetSpeakTranslator", "LeetSpeakTranslator\LeetSpeakTranslator.csproj", "{582B962D-3F03-4066-A639-BFE8EB5C86ED}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LST.Model", "..\LST.Model\LST.Model.csproj", "{DC568FD7-2426-4F4D-A88A-2DF02491EC28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LST.Model", "LST.Model\LST.Model.csproj", "{DC568FD7-2426-4F4D-A88A-2DF02491EC28}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LST.Infrastructure", "..\LST.Infrastructure\LST.Infrastructure.csproj", "{418D4B1C-72C9-4B8D-BC72-C87EC489C6DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LST.Infrastructure", "LST.Infrastructure\LST.Infrastructure.csproj", "{418D4B1C-72C9-4B8D-BC72-C87EC489C6DA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LST.Repository.EF.All", "..\LST.Repository.EF.All\LST.Repository.EF.All.csproj", "{B8DC2693-150A-41F0-8229-B250CEF7C241}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LST.Repository.EF.All", "LST.Repository.EF.All\LST.Repository.EF.All.csproj", "{B8DC2693-150A-41F0-8229-B250CEF7C241}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LST.Service", "..\LST.Service\LST.Service.csproj", "{2945D955-5801-4903-8CCA-AF3D2E0FA16A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LST.Service", "LST.Service\LST.Service.csproj", "{2945D955-5801-4903-8CCA-AF3D2E0FA16A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LST.UnitTest", "..\LST.UnitTest\LST.UnitTest.csproj", "{666F45D3-9772-4C57-9A14-4264C97632C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LST.UnitTest", "LST.UnitTest\LST.UnitTest.csproj", "{666F45D3-9772-4C57-9A14-4264C97632C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

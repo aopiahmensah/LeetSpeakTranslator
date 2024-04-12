@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zTJsz1lq0niiGhC3GOMQiSOy+OCMR0qOkUwYCTwIcBX5tsoQkELrHESCGgC4gwX1P8PvaJKjyRTFrY7vPgReCQ==",
+  "dgSpecHash": "ZKEIxfpJkQ+cAeGvUrqYjxC8FASnUmomipS79zBpkEQ1i57UoRkvN2f5OQohlqxcZ7WlssS2ZiA5MhoKadVhJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LeetSpeakTranslator\\LeetSpeakTranslator.csproj",
+  "projectFilePath": "C:\\Users\\aopia\\OneDrive\\Desktop\\MindSpring Test_Anthony Opiah-Mensah\\scr\\LeetSpeakTranslator\\LeetSpeakTranslator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aopia\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\aopia\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

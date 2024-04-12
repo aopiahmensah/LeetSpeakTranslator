@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Repository.EF.All\\LST.Repository.EF.All.csproj": {}
+    "C:\\Users\\aopia\\OneDrive\\Desktop\\MindSpring Test_Anthony Opiah-Mensah\\scr\\LST.Repository.EF.All\\LST.Repository.EF.All.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Infrastructure\\LST.Infrastructure.csproj": {
+    "C:\\Users\\aopia\\OneDrive\\Desktop\\MindSpring Test_Anthony Opiah-Mensah\\scr\\LST.Infrastructure\\LST.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Infrastructure\\LST.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\aopia\\OneDrive\\Desktop\\MindSpring Test_Anthony Opiah-Mensah\\scr\\LST.Infrastructure\\LST.Infrastructure.csproj",
         "projectName": "LST.Infrastructure",
-        "projectPath": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Infrastructure\\LST.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\aopia\\OneDrive\\Desktop\\MindSpring Test_Anthony Opiah-Mensah\\scr\\LST.Infrastructure\\LST.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\aopia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\aopia\\OneDrive\\Desktop\\MindSpring Test_Anthony Opiah-Mensah\\scr\\LST.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Model\\LST.Model.csproj": {
+    "C:\\Users\\aopia\\OneDrive\\Desktop\\MindSpring Test_Anthony Opiah-Mensah\\scr\\LST.Model\\LST.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Model\\LST.Model.csproj",
+        "projectUniqueName": "C:\\Users\\aopia\\OneDrive\\Desktop\\MindSpring Test_Anthony Opiah-Mensah\\scr\\LST.Model\\LST.Model.csproj",
         "projectName": "LST.Model",
-        "projectPath": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Model\\LST.Model.csproj",
+        "projectPath": "C:\\Users\\aopia\\OneDrive\\Desktop\\MindSpring Test_Anthony Opiah-Mensah\\scr\\LST.Model\\LST.Model.csproj",
         "packagesPath": "C:\\Users\\aopia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Model\\obj\\",
+        "outputPath": "C:\\Users\\aopia\\OneDrive\\Desktop\\MindSpring Test_Anthony Opiah-Mensah\\scr\\LST.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Infrastructure\\LST.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Infrastructure\\LST.Infrastructure.csproj"
+              "C:\\Users\\aopia\\OneDrive\\Desktop\\MindSpring Test_Anthony Opiah-Mensah\\scr\\LST.Infrastructure\\LST.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\aopia\\OneDrive\\Desktop\\MindSpring Test_Anthony Opiah-Mensah\\scr\\LST.Infrastructure\\LST.Infrastructure.csproj"
               }
             }
           }
@@ -138,14 +138,14 @@
         }
       }
     },
-    "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Repository.EF.All\\LST.Repository.EF.All.csproj": {
+    "C:\\Users\\aopia\\OneDrive\\Desktop\\MindSpring Test_Anthony Opiah-Mensah\\scr\\LST.Repository.EF.All\\LST.Repository.EF.All.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Repository.EF.All\\LST.Repository.EF.All.csproj",
+        "projectUniqueName": "C:\\Users\\aopia\\OneDrive\\Desktop\\MindSpring Test_Anthony Opiah-Mensah\\scr\\LST.Repository.EF.All\\LST.Repository.EF.All.csproj",
         "projectName": "LST.Repository.EF.All",
-        "projectPath": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Repository.EF.All\\LST.Repository.EF.All.csproj",
+        "projectPath": "C:\\Users\\aopia\\OneDrive\\Desktop\\MindSpring Test_Anthony Opiah-Mensah\\scr\\LST.Repository.EF.All\\LST.Repository.EF.All.csproj",
         "packagesPath": "C:\\Users\\aopia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Repository.EF.All\\obj\\",
+        "outputPath": "C:\\Users\\aopia\\OneDrive\\Desktop\\MindSpring Test_Anthony Opiah-Mensah\\scr\\LST.Repository.EF.All\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -167,8 +167,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Model\\LST.Model.csproj": {
-                "projectPath": "C:\\Users\\aopia\\OneDrive\\Documents\\Visual Studio 2022\\Projects\\LST.Model\\LST.Model.csproj"
+              "C:\\Users\\aopia\\OneDrive\\Desktop\\MindSpring Test_Anthony Opiah-Mensah\\scr\\LST.Model\\LST.Model.csproj": {
+                "projectPath": "C:\\Users\\aopia\\OneDrive\\Desktop\\MindSpring Test_Anthony Opiah-Mensah\\scr\\LST.Model\\LST.Model.csproj"
               }
             }
           }

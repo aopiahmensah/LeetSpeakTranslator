@@ -9,3 +9,15 @@ C:\Users\aopia\OneDrive\Documents\Visual Studio 2022\Projects\LST.Infrastructure
 C:\Users\aopia\OneDrive\Documents\Visual Studio 2022\Projects\LST.Infrastructure\obj\Debug\net8.0\refint\LST.Infrastructure.dll
 C:\Users\aopia\OneDrive\Documents\Visual Studio 2022\Projects\LST.Infrastructure\obj\Debug\net8.0\LST.Infrastructure.pdb
 C:\Users\aopia\OneDrive\Documents\Visual Studio 2022\Projects\LST.Infrastructure\obj\Debug\net8.0\ref\LST.Infrastructure.dll
+C:\Users\aopia\OneDrive\Desktop\MindSpring Test_Anthony Opiah-Mensah\scr\LST.Infrastructure\bin\Debug\net8.0\LST.Infrastructure.deps.json
+C:\Users\aopia\OneDrive\Desktop\MindSpring Test_Anthony Opiah-Mensah\scr\LST.Infrastructure\bin\Debug\net8.0\LST.Infrastructure.dll
+C:\Users\aopia\OneDrive\Desktop\MindSpring Test_Anthony Opiah-Mensah\scr\LST.Infrastructure\bin\Debug\net8.0\LST.Infrastructure.pdb
+C:\Users\aopia\OneDrive\Desktop\MindSpring Test_Anthony Opiah-Mensah\scr\LST.Infrastructure\obj\Debug\net8.0\LST.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aopia\OneDrive\Desktop\MindSpring Test_Anthony Opiah-Mensah\scr\LST.Infrastructure\obj\Debug\net8.0\LST.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\aopia\OneDrive\Desktop\MindSpring Test_Anthony Opiah-Mensah\scr\LST.Infrastructure\obj\Debug\net8.0\LST.Infrastructure.AssemblyInfo.cs
+C:\Users\aopia\OneDrive\Desktop\MindSpring Test_Anthony Opiah-Mensah\scr\LST.Infrastructure\obj\Debug\net8.0\LST.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\aopia\OneDrive\Desktop\MindSpring Test_Anthony Opiah-Mensah\scr\LST.Infrastructure\obj\Debug\net8.0\LST.Infrastructure.sourcelink.json
+C:\Users\aopia\OneDrive\Desktop\MindSpring Test_Anthony Opiah-Mensah\scr\LST.Infrastructure\obj\Debug\net8.0\LST.Infrastructure.dll
+C:\Users\aopia\OneDrive\Desktop\MindSpring Test_Anthony Opiah-Mensah\scr\LST.Infrastructure\obj\Debug\net8.0\refint\LST.Infrastructure.dll
+C:\Users\aopia\OneDrive\Desktop\MindSpring Test_Anthony Opiah-Mensah\scr\LST.Infrastructure\obj\Debug\net8.0\LST.Infrastructure.pdb
+C:\Users\aopia\OneDrive\Desktop\MindSpring Test_Anthony Opiah-Mensah\scr\LST.Infrastructure\obj\Debug\net8.0\ref\LST.Infrastructure.dll
